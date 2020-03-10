@@ -1,0 +1,26 @@
+{
+  "name": "css-grid-layout",
+  "version": "1.0.0",
+  "description": "An example of CSS grid layout",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnricoMassoneDeltatre/css-grid-layout.git"
+  },
+  "keywords": [
+    "css",
+    "grid-layout"
+  ],
+  "author": "Enrico Massone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnricoMassoneDeltatre/css-grid-layout/issues"
+  },
+  "homepage": "https://github.com/EnricoMassoneDeltatre/css-grid-layout#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
