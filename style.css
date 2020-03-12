@@ -75,3 +75,16 @@ nav {
 .site-nav > li {
   margin-top: 0;
 }
+
+.tile {
+  background-color: white;
+  padding: 1.5em;
+}
+
+.tile > * + * {
+  margin-top: 1.5em;
+}
+
+.tile > :first-child {
+  margin-top: 0;
+}
