@@ -81,10 +81,32 @@ nav {
   padding: 1.5em;
 }
 
-.tile > * + * {
+.tile * + * {
   margin-top: 1.5em;
 }
 
 .tile > :first-child {
   margin-top: 0;
+}
+
+.login-form h3 {
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.login-form input:not([type="checkbox"]):not([type="radio"]) {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.login-form button {
+  padding: 0.5em 1em;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #cc6b5a;
+  margin-top: 1em;
 }
